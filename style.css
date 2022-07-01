@@ -1,0 +1,68 @@
+@charset "utf-08";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+    --font-family: 'Poppins', sans-serif;
+  }
+
+body {
+    background-color: var(--body-bg-color);
+    display: flex;
+    min-height: 100vh;
+    
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+#image {
+    width: 326px;
+    height: 213px;
+    display: flex;
+    justify-content: center;
+    background-image: url(assets/Ellipse\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div img {
+    padding: 5px;
+}
+
+#instagram a {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 40px;
+    text-decoration: none;
+    color: var(--purple);
+}
+
+.link {
+    display: flex;
+    width: 326px;
+    height: 50px;
+    border: 3px solid var(--purple);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: var(--purple);
+    font-family: var(--font-family);
+    font-weight: bolder;
+    text-decoration: none;
+ }
+
+ #social-links {
+    display: flex;
+    justify-content: space-evenly;
+ }
